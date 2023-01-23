@@ -15,13 +15,30 @@
 .valueProposition{
     margin-top: -3%;
 }
+.bgLightGrey{
+    background-color: rgb(247, 247, 247);
+}
+.shadowEffect{
+    text-shadow: 2px 2px 4px #000000;
+}
+.centerD{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .spaceDivSastre{
     height: 20rem;
-    background-image: url("/assets/images/sastre.jpg");
+    background-image: url("/assets/images/aspasVentiladores.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 59%
+}
+.airEquiposLogo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .procesoTrabajoDiv{
     margin-top: -6.9% !important;
