@@ -1,32 +1,39 @@
-
-.fonts3{
-    font-family: 'Roboto', sans-serif !important; 
+.fonts3 {
+    font-family: 'Roboto', sans-serif !important;
 
 }
+
 .pointer {
     cursor: pointer;
 }
-.logoImageDavid{
+
+.logoImageDavid {
     max-width: 18% !important;
 }
-.serviciosDiv{
+
+.serviciosDiv {
     margin-top: -7%;
 }
-.valueProposition{
+
+.valueProposition {
     margin-top: -3%;
 }
-.bgLightGrey{
+
+.bgLightGrey {
     background-color: rgb(247, 247, 247);
 }
-.shadowEffect{
+
+.shadowEffect {
     text-shadow: 2px 2px 4px #000000;
 }
-.centerD{
+
+.centerD {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.spaceDivSastre{
+
+.spaceDivSastre {
     height: 20rem;
     background-image: url("/assets/images/aspas2.jpg");
     background-position: center;
@@ -34,31 +41,38 @@
     background-size: cover;
     background-position: 50% 59%
 }
-.airEquiposLogo{
+
+.airEquiposLogo {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.procesoTrabajoDiv{
+
+.procesoTrabajoDiv {
     margin-top: -6.9% !important;
 }
-.overlaySastre{
+
+.overlaySastre {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.11);
     padding-top: 7%;
 }
-.ch:hover{
+
+.ch:hover {
     color: #D42930 !important;
 }
-.ch-bg:hover{
+
+.ch-bg:hover {
     background-color: #D42930 !important;
 }
-@media(min-width:992px){
-    .res-Black{
+
+@media(min-width:992px) {
+    .res-Black {
         color: white !important;
     }
+
     .cascading-right {
         margin-right: -50px;
     }
@@ -66,40 +80,67 @@
     .rotate-lg-6 {
         transform: rotate(6deg);
     }
-    .davidHacherStory{
+
+    .davidHacherStory {
         margin-bottom: 7%;
     }
-    .redeSocialesDiv{
+
+    .redeSocialesDiv {
         display: none !important;
     }
-    
+
 }
-@media(max-width:991px){
-    .procesoTrabajoDiv{
+
+@media(max-width:991px) {
+    .procesoTrabajoDiv {
         margin-top: -31% !important;
     }
-    #contacto{
+
+    .somethinReallyBlue {
+        height: 15rem;
+        background-color: #2454ac;
+    }
+
+    #contacto {
         margin-top: 16% !important;
     }
-   .centerD{
-    width: 280px !important;
-   }
-    .res-Black{
+
+    .somethingSvg {
+        display: none !important;
+    }
+
+    .cuadroC {
+        margin-top: 0px !important;
+        position: relative;
+        top: -10rem;
+        margin-bottom: -64% !important;
+    }
+
+    .centerD {
+        width: 280px !important;
+    }
+
+    .res-Black {
         color: black !important;
     }
-    .logoImageDavid{
+
+    .logoImageDavid {
         max-width: 48% !important;
     }
-    .serviciosDiv{
+
+    .serviciosDiv {
         margin-top: -31%;
     }
-    .valueProposition{
+
+    .valueProposition {
         margin-top: -45%;
     }
-    .overlaySastre{
+
+    .overlaySastre {
         padding-top: 15%;
     }
-    .spaceDivSastre{
+
+    .spaceDivSastre {
         margin-top: -15%;
         height: 16rem;
     }
