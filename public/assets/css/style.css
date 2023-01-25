@@ -59,6 +59,9 @@
     background-color: rgba(0, 0, 0, 0.11);
     padding-top: 7%;
 }
+.youTubeRatio{
+    margin-bottom: 10%;
+}
 
 .ch:hover {
     color: #D42930 !important;
@@ -97,10 +100,14 @@
     }
 
     .somethinReallyBlue {
-        height: 15rem;
-        background-color: #2454ac;
+       padding-top: 7%;
+       padding-bottom: 7%;
+       background-color: #2454ac;
+       
     }
-
+    .card2Bg{
+        margin-top: -20%;
+    }
     #contacto {
         margin-top: 16% !important;
     }
@@ -108,12 +115,13 @@
     .somethingSvg {
         display: none !important;
     }
+   
 
     .cuadroC {
-        margin-top: 0px !important;
+        
         position: relative;
         top: -10rem;
-        margin-bottom: -64% !important;
+        margin-bottom: -40% !important;
     }
 
     .centerD {
