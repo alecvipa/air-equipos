@@ -81,12 +81,9 @@
     #contacto{
         margin-top: 16% !important;
     }
-    .redeSocialesDiv2{
-        display: none !important;
-    }
-    .davidHacherStory{
-        margin-bottom: -35%;
-    }
+   .centerD{
+    width: 280px !important;
+   }
     .res-Black{
         color: black !important;
     }
