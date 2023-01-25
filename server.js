@@ -40,10 +40,21 @@ app.get('/inicio', function (req, res) {
     res.render('inicio');
 
 });
-app.get('/:params?', function (req, res) {
-    var params = req.params.params;
-    res.render(params);
-})
+app.get('/oferta', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('oferta');
+
+});
+app.get('/privacidad', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('privacidad');
+
+});
+
+// app.get('/:params?', function (req, res) {
+//     var params = req.params.params;
+//     res.render(params);
+// })
 
 
 // Nodemailer route
@@ -67,8 +78,8 @@ app.post("/ajax/email", function (request, response) {
     var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Servicio de interés:${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'contacto@davidhacher.com',
-        subject: '¡Alguien ha dejado sus datos en David Hacher Consultants!',
+        to: 'alejandro@alenrem.com.mx',
+        subject: '¡Alguien ha dejado sus datos en AirEquipos!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {
