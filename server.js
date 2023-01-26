@@ -50,6 +50,11 @@ app.get('/privacidad', function (req, res) {
     res.render('privacidad');
 
 });
+app.get('/gracias', function (req, res) {
+    // res.redirect(targetBaseUrl);
+    res.render('gracias');
+
+});
 
 // app.get('/:params?', function (req, res) {
 //     var params = req.params.params;
