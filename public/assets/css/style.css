@@ -34,12 +34,12 @@
 }
 
 .spaceDivSastre {
-    height: 20rem;
+    height: 22rem;
     background-image: url("/assets/images/aspas2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 59%
+    /* background-position: 50% 59% */
 }
 
 .airEquiposLogo {
